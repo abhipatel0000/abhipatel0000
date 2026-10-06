@@ -17,14 +17,14 @@ const abhi = {
   role: "B.Tech CSE Student @ Indus University (2023 – 2027)",
   location: "Ahmedabad, Gujarat, India 🇮🇳",
   experience: "Technical Lead @ ISAC (Indus Student Activity Cell)",
-  focus: ["Full-Stack Web", "Mobile Apps", "AI-powered tools"],
+  focus: ["Full-Stack Web", "AI-powered tools"],
   currentlyBuilding: "Projects that solve real problems, end to end",
-  funFact: "I also create cricket content & edit videos 🏏🎬",
-  lookingFor: "Internships, collaborations & open-source opportunities",
+  funFact: "I also edit videos🎬",
+  lookingFor: "Collaborations & open-source opportunities",
 };
 ```
 
-- 🔭 Currently building full-stack and mobile projects independently
+- 🔭 Currently building full-stack projects independently
 - 🌱 Exploring AI integrations, system design and clean architecture
 - 🤝 Open to collaborating on interesting ideas
 - ⚡ Ask me about web development, app development or project architecture
