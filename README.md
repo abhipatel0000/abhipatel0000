@@ -33,15 +33,32 @@ const abhi = {
 
 ## 🛠️ Tech Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,nodejs,express&theme=dark" alt="web" />
-  <br />
-  <img src="https://skillicons.dev/icons?i=python,java,cpp,flutter,dart,kotlin&theme=dark" alt="languages" />
-  <br />
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,firebase,supabase&theme=dark" alt="databases" />
-  <br />
-  <img src="https://skillicons.dev/icons?i=git,github,docker,vercel,linux,vscode,figma,postman&theme=dark" alt="tools" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><b>Languages</b></td>
+    <td><img src="https://skillicons.dev/icons?i=java,js,py&theme=dark" alt="java,js,py" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Frontend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,bootstrap&theme=dark" alt="react,nextjs,vite,tailwind,bootstrap" /><br /><img src="https://img.shields.io/badge/React_Router-302b63?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router" /> <img src="https://img.shields.io/badge/Esbuild-302b63?style=flat-square&logo=esbuild&logoColor=white" alt="Esbuild" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Backend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,flask,spring&theme=dark" alt="nodejs,express,fastapi,flask,spring" /><br /><img src="https://img.shields.io/badge/Socket.io-302b63?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.io" /> <img src="https://img.shields.io/badge/Nodemon-302b63?style=flat-square&logo=nodemon&logoColor=white" alt="Nodemon" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Databases</b></td>
+    <td><img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,redis,firebase&theme=dark" alt="mongodb,mysql,postgres,redis,firebase" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Data &amp; ML</b></td>
+    <td><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" alt="pytorch,tensorflow,sklearn" /><br /><img src="https://img.shields.io/badge/NumPy-302b63?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" /> <img src="https://img.shields.io/badge/Pandas-302b63?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" /> <img src="https://img.shields.io/badge/Matplotlib-302b63?style=flat-square&logo=matplotlib&logoColor=white" alt="Matplotlib" /> <img src="https://img.shields.io/badge/SciPy-302b63?style=flat-square&logo=scipy&logoColor=white" alt="SciPy" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Tools &amp; DevOps</b></td>
+    <td><img src="https://skillicons.dev/icons?i=git,github,docker,maven,gradle,postman,figma,unity&theme=dark" alt="git,github,docker,maven,gradle,postman,figma,unity" /><br /><img src="https://img.shields.io/badge/ESLint-302b63?style=flat-square&logo=eslint&logoColor=white" alt="ESLint" /> <img src="https://img.shields.io/badge/Prettier-302b63?style=flat-square&logo=prettier&logoColor=white" alt="Prettier" /> <img src="https://img.shields.io/badge/Swagger-302b63?style=flat-square&logo=swagger&logoColor=white" alt="Swagger" /></td>
+  </tr>
+</table>
 
 ---
 
