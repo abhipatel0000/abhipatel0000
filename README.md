@@ -73,10 +73,6 @@ const abhi = {
   <img src="https://streak-stats.demolab.com/?user=abhipatel0000&theme=tokyonight&hide_border=true" alt="streak" />
 </p>
 
-<p align="center">
-  <img src="https://ghchart.rshah.org/6c63ff/abhipatel0000" alt="contribution chart" width="90%" />
-</p>
-
 ---
 
 ## 🤝 Let's Connect
