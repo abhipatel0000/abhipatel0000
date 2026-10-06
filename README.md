@@ -1,18 +1,11 @@
-<!-- ======================= HEADER BANNER ======================= -->
-<h1 align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Hi%2C%20I'm%20Abhi%20👋&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20%26%20Mobile%20Developer%20%7C%20CSE%20Student&descSize=18&descAlignY=60" alt="header" />
-</h1>
-
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Building+full-stack+%26+mobile+apps;Turning+ideas+into+real+products;Technical+Lead+%40+ISAC;Always+learning%2C+always+shipping+🚀" alt="Typing SVG" />
-  </a>
+  <img src="./assets/banner.svg" alt="Hi, I'm Abhi" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=abhipatel0000&label=Profile%20Views&color=6c63ff&style=for-the-badge" alt="views" />
   <img src="https://img.shields.io/github/followers/abhipatel0000?style=for-the-badge&logo=github&color=6c63ff" alt="followers" />
   <img src="https://img.shields.io/github/stars/abhipatel0000?style=for-the-badge&logo=github&color=6c63ff" alt="stars" />
+  <img src="https://img.shields.io/badge/Ahmedabad-India-6c63ff?style=for-the-badge&logo=googlemaps&logoColor=white" alt="location" />
 </p>
 
 ---
@@ -50,8 +43,6 @@ const abhi = {
   <img src="https://skillicons.dev/icons?i=git,github,docker,vercel,linux,vscode,figma,postman&theme=dark" alt="tools" />
 </p>
 
-> 💡 Edit the icon list to match what you actually use. All available icons: [skillicons.dev](https://skillicons.dev)
-
 ---
 
 ## 📊 GitHub Stats
@@ -66,15 +57,7 @@ const abhi = {
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=abhipatel0000&theme=tokyo-night&hide_border=true&area=true" alt="activity graph" />
-</p>
-
----
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=abhipatel0000&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=10" alt="trophies" />
+  <img src="https://ghchart.rshah.org/6c63ff/abhipatel0000" alt="contribution chart" width="90%" />
 </p>
 
 ---
@@ -82,13 +65,15 @@ const abhi = {
 ## 🤝 Let's Connect
 
 <p align="center">
-  <a href="www.linkedin.com/in/abhi-patel-dev"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:abhipatel200510@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.instagram.com/abhipatel1810"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/abhi-patel-dev"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:abhipatel200510@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://www.instagram.com/abhipatel1810"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
 </p>
 
 <p align="center">
   <i>⭐ If you like my work, consider giving a star to my repositories!</i>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%" alt="footer" />
+<p align="center">
+  <img src="./assets/footer.svg" alt="footer" width="100%" />
+</p>
