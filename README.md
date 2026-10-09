@@ -27,10 +27,6 @@
 ### 🧑‍💻 Developer Terminal
 
 ```javascript
-/**
- * @file abhi_patel.config.ts
- * @summary Developer specifications & system architecture profile
- */
 
 const abhiPatel = {
   name: "Abhi Patel",
@@ -163,11 +159,7 @@ const abhiPatel = {
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=abhipatel0000&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=00F2FE&line=9d4edd&point=f72585&area=true&hide_title=false" alt="Contribution Graph" width="95%" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=abhipatel0000&theme=dracula&no-frame=true&no-bg=true&margin_w=10" alt="GitHub Trophies" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
 </p>
 
 ---

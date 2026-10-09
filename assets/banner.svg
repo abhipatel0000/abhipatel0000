@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1200 340" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1200 350" fill="none">
   <defs>
-    <!-- Gradients -->
+    <!-- Background Gradients -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#08071a" />
       <stop offset="40%" stop-color="#0f1123" />
@@ -17,20 +17,25 @@
 
     <linearGradient id="glowLine" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00F2FE" stop-opacity="0" />
-      <stop offset="20%" stop-color="#00F2FE" stop-opacity="0.8" />
+      <stop offset="25%" stop-color="#00F2FE" stop-opacity="0.9" />
       <stop offset="50%" stop-color="#9d4edd" stop-opacity="1" />
-      <stop offset="80%" stop-color="#f72585" stop-opacity="0.8" />
+      <stop offset="75%" stop-color="#f72585" stop-opacity="0.9" />
       <stop offset="100%" stop-color="#f72585" stop-opacity="0" />
     </linearGradient>
 
-    <linearGradient id="badgeBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    <linearGradient id="statusBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0.04" />
     </linearGradient>
 
-    <linearGradient id="badgeBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.5" />
-      <stop offset="100%" stop-color="#9d4edd" stop-opacity="0.5" />
+    <linearGradient id="statusBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff88" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0.3" />
+    </linearGradient>
+
+    <linearGradient id="chipBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
     </linearGradient>
 
     <!-- Filters -->
@@ -43,114 +48,94 @@
     </filter>
 
     <filter id="glowSoft" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="5" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <!-- Pattern -->
+    <!-- Grid Pattern -->
     <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#6366f1" stroke-width="0.75" stroke-opacity="0.07"/>
-      <circle cx="40" cy="0" r="1" fill="#00F2FE" fill-opacity="0.2"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#6366f1" stroke-width="0.75" stroke-opacity="0.08"/>
+      <circle cx="40" cy="0" r="1" fill="#00F2FE" fill-opacity="0.25"/>
     </pattern>
   </defs>
 
   <style>
     @keyframes floatOrb {
-      0%, 100% { transform: translate(0, 0) scale(1); }
-      50% { transform: translate(25px, -18px) scale(1.08); }
+      0%, 100% { transform: translate(0, 0); }
+      50% { transform: translate(25px, -18px); }
     }
     @keyframes floatOrbRev {
-      0%, 100% { transform: translate(0, 0) scale(1); }
-      50% { transform: translate(-20px, 15px) scale(1.12); }
+      0%, 100% { transform: translate(0, 0); }
+      50% { transform: translate(-20px, 15px); }
     }
-    @keyframes pulseGlow {
-      0%, 100% { opacity: 0.35; filter: drop-shadow(0 0 15px #00F2FE); }
-      50% { opacity: 0.75; filter: drop-shadow(0 0 25px #9d4edd); }
+    @keyframes dotFade {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.35; }
     }
-    @keyframes scanline {
-      0% { transform: translateY(0); }
-      100% { transform: translateY(340px); }
-    }
-    @keyframes typeCycle {
+    @keyframes typeCycle1 {
       0%, 20% { opacity: 1; transform: translateY(0); }
-      23%, 97% { opacity: 0; transform: translateY(8px); }
+      24%, 96% { opacity: 0; transform: translateY(8px); }
       100% { opacity: 1; transform: translateY(0); }
     }
     @keyframes typeCycle2 {
-      0%, 23% { opacity: 0; transform: translateY(8px); }
-      26%, 46% { opacity: 1; transform: translateY(0); }
-      49%, 100% { opacity: 0; transform: translateY(8px); }
+      0%, 24% { opacity: 0; transform: translateY(8px); }
+      28%, 48% { opacity: 1; transform: translateY(0); }
+      52%, 100% { opacity: 0; transform: translateY(8px); }
     }
     @keyframes typeCycle3 {
-      0%, 49% { opacity: 0; transform: translateY(8px); }
-      52%, 72% { opacity: 1; transform: translateY(0); }
-      75%, 100% { opacity: 0; transform: translateY(8px); }
+      0%, 52% { opacity: 0; transform: translateY(8px); }
+      56%, 76% { opacity: 1; transform: translateY(0); }
+      80%, 100% { opacity: 0; transform: translateY(8px); }
     }
     @keyframes typeCycle4 {
-      0%, 75% { opacity: 0; transform: translateY(8px); }
-      78%, 97% { opacity: 1; transform: translateY(0); }
+      0%, 80% { opacity: 0; transform: translateY(8px); }
+      84%, 96% { opacity: 1; transform: translateY(0); }
       100% { opacity: 0; transform: translateY(8px); }
-    }
-    @keyframes blink {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0; }
-    }
-    @keyframes badgeFloat {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-4px); }
     }
 
     .bg-orb1 { animation: floatOrb 9s ease-in-out infinite; }
     .bg-orb2 { animation: floatOrbRev 12s ease-in-out infinite; }
-    .neon-pulse { animation: pulseGlow 4s ease-in-out infinite; }
-    .badge-anim { animation: badgeFloat 6s ease-in-out infinite; }
-    .badge-anim-delay { animation: badgeFloat 6s ease-in-out infinite 3s; }
+    .status-dot-pulse { animation: dotFade 2s ease-in-out infinite; }
     
-    .cursor-blink { animation: blink 0.9s infinite; }
-    
-    .cycle-text-1 { animation: typeCycle 14s ease-in-out infinite; }
+    .cycle-text-1 { animation: typeCycle1 14s ease-in-out infinite; }
     .cycle-text-2 { animation: typeCycle2 14s ease-in-out infinite; }
     .cycle-text-3 { animation: typeCycle3 14s ease-in-out infinite; }
     .cycle-text-4 { animation: typeCycle4 14s ease-in-out infinite; }
   </style>
 
   <!-- Background Base -->
-  <rect width="1200" height="340" rx="24" fill="url(#bgGrad)"/>
+  <rect width="1200" height="350" rx="24" fill="url(#bgGrad)"/>
   
   <!-- Cyber Grid Pattern -->
-  <rect width="1200" height="340" rx="24" fill="url(#cyberGrid)"/>
+  <rect width="1200" height="350" rx="24" fill="url(#cyberGrid)"/>
 
   <!-- Glowing Mesh Orbs -->
   <g class="bg-orb1">
-    <circle cx="150" cy="80" r="140" fill="#00F2FE" opacity="0.09" filter="url(#neonGlow)" />
-    <circle cx="1080" cy="260" r="160" fill="#9d4edd" opacity="0.12" filter="url(#neonGlow)" />
+    <circle cx="150" cy="80" r="140" fill="#00F2FE" opacity="0.10" filter="url(#neonGlow)" />
+    <circle cx="1080" cy="270" r="160" fill="#9d4edd" opacity="0.13" filter="url(#neonGlow)" />
   </g>
   <g class="bg-orb2">
-    <circle cx="600" cy="30" r="120" fill="#6366f1" opacity="0.1" filter="url(#neonGlow)" />
-    <circle cx="1020" cy="70" r="90" fill="#f72585" opacity="0.08" filter="url(#neonGlow)" />
-    <circle cx="120" cy="280" r="110" fill="#4FACFE" opacity="0.09" filter="url(#neonGlow)" />
+    <circle cx="600" cy="30" r="130" fill="#6366f1" opacity="0.11" filter="url(#neonGlow)" />
+    <circle cx="1020" cy="70" r="90" fill="#f72585" opacity="0.09" filter="url(#neonGlow)" />
+    <circle cx="120" cy="290" r="110" fill="#4FACFE" opacity="0.09" filter="url(#neonGlow)" />
   </g>
 
   <!-- Card Border Glow -->
-  <rect x="1" y="1" width="1198" height="338" rx="23" fill="none" stroke="url(#accentCyanPurple)" stroke-width="1.5" stroke-opacity="0.4"/>
+  <rect x="1" y="1" width="1198" height="348" rx="23" fill="none" stroke="url(#accentCyanPurple)" stroke-width="1.5" stroke-opacity="0.45"/>
 
   <!-- Corner Tech Brackets -->
   <path d="M 28 50 L 28 28 L 50 28" fill="none" stroke="#00F2FE" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
   <path d="M 1172 50 L 1172 28 L 1150 28" fill="none" stroke="#f72585" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
-  <path d="M 28 290 L 28 312 L 50 312" fill="none" stroke="#00F2FE" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
-  <path d="M 1172 290 L 1172 312 L 1150 312" fill="none" stroke="#9d4edd" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 28 300 L 28 322 L 50 322" fill="none" stroke="#00F2FE" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 1172 300 L 1172 322 L 1150 322" fill="none" stroke="#9d4edd" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
 
-  <!-- Top Status Pill / Live Badge -->
-  <g transform="translate(600, 48)" text-anchor="middle">
-    <rect x="-130" y="-15" width="260" height="30" rx="15" fill="url(#badgeBg)" stroke="url(#badgeBorder)" stroke-width="1"/>
-    <circle cx="-105" cy="0" r="4" fill="#00ff88">
-      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="-92" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#00ff88" letter-spacing="1">AVAILABLE FOR COLLABS</text>
-  </g>
+  <!-- Top Status Pill / Live Badge (Rock Solid Fixed Coordinates & Perfect Center) -->
+  <rect x="475" y="32" width="250" height="32" rx="16" fill="url(#statusBg)" stroke="url(#statusBorder)" stroke-width="1.2"/>
+  <circle cx="508" cy="48" r="4.5" fill="#00ff88" class="status-dot-pulse"/>
+  <text x="523" y="52.5" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="800" fill="#00ff88" letter-spacing="1.5">AVAILABLE FOR COLLABS</text>
 
   <!-- Main Title -->
   <text x="600" y="128" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
@@ -196,30 +181,22 @@
     </g>
   </g>
 
-  <!-- Tech Capsules / Quick Pills along Bottom -->
-  <g transform="translate(600, 292)" text-anchor="middle">
-    <!-- Pill 1 -->
-    <g transform="translate(-320, 0)" class="badge-anim">
-      <rect x="-85" y="-13" width="170" height="26" rx="13" fill="#13152c" stroke="#4FACFE" stroke-width="1" stroke-opacity="0.4"/>
-      <text y="4.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">📍 Ahmedabad, India</text>
-    </g>
+  <!-- Bottom Information Badges (Direct Absolute Coordinates, No Transform Overrides) -->
+  <!-- Badge 1: Location -->
+  <g>
+    <rect x="235" y="282" width="210" height="30" rx="15" fill="url(#chipBg)" stroke="#4FACFE" stroke-width="1.2" stroke-opacity="0.45"/>
+    <text x="340" y="301.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#e2e8f0">📍 Ahmedabad, India</text>
+  </g>
 
-    <!-- Pill 2 -->
-    <g transform="translate(-105, 0)" class="badge-anim-delay">
-      <rect x="-85" y="-13" width="170" height="26" rx="13" fill="#13152c" stroke="#9d4edd" stroke-width="1" stroke-opacity="0.4"/>
-      <text y="4.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">🎓 Indus University '27</text>
-    </g>
+  <!-- Badge 2: College / Batch -->
+  <g>
+    <rect x="485" y="282" width="230" height="30" rx="15" fill="url(#chipBg)" stroke="#9d4edd" stroke-width="1.2" stroke-opacity="0.45"/>
+    <text x="600" y="301.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#e2e8f0">🎓 Indus University CSE '27</text>
+  </g>
 
-    <!-- Pill 3 -->
-    <g transform="translate(105, 0)" class="badge-anim">
-      <rect x="-85" y="-13" width="170" height="26" rx="13" fill="#13152c" stroke="#f72585" stroke-width="1" stroke-opacity="0.4"/>
-      <text y="4.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">⚡ Full-Stack &amp; AI/ML</text>
-    </g>
-
-    <!-- Pill 4 -->
-    <g transform="translate(320, 0)" class="badge-anim-delay">
-      <rect x="-85" y="-13" width="170" height="26" rx="13" fill="#13152c" stroke="#00ff88" stroke-width="1" stroke-opacity="0.4"/>
-      <text y="4.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">🎬 Video &amp; UI Creator</text>
-    </g>
+  <!-- Badge 3: Role -->
+  <g>
+    <rect x="755" y="282" width="210" height="30" rx="15" fill="url(#chipBg)" stroke="#00ff88" stroke-width="1.2" stroke-opacity="0.45"/>
+    <text x="860" y="301.5" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="600" fill="#e2e8f0">⚡ Tech Lead @ ISAC</text>
   </g>
 </svg>
