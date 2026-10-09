@@ -508,7 +508,7 @@ projects = [
         "title": "BestView Clone",
         "badge": "HOSPITALITY PLATFORM",
         "desc": "Full-stack resort &amp; luxury stay booking platform featuring real-time room availability, interactive maps &amp; payments.",
-        "tags": ["React", "Tailwind CSS", "Spring Boot", "PostgreSQL"],
+        "tags": ["React", "Tailwind CSS", "PostgreSQL"],
         "accent": "#9d4edd"
     },
     {
