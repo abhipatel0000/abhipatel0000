@@ -6,7 +6,7 @@ Welcome to your redesigned, production-grade GitHub profile README! Follow this 
 
 ## 📋 Step 1: Enable GitHub Actions Workflow Permissions
 
-Your profile includes two automated CI workflows (`snake.yml` and `metrics.yml`) that generate your contribution snake animation and engineering metrics cards into an `output` branch.
+Your profile includes an automated CI workflow (`snake.yml`) that generates your contribution snake animation directly into an `output` branch.
 
 1. Go to your repository settings on GitHub:
    `https://github.com/abhipatel0000/abhipatel0000/settings/actions`
@@ -17,34 +17,18 @@ Your profile includes two automated CI workflows (`snake.yml` and `metrics.yml`)
 
 ---
 
-## 🔑 Step 2: (Optional) Add a Metrics Token for Advanced GitHub Stats
+## ⚡ Step 2: Trigger the Snake Workflow Manually
 
-By default, GitHub Actions uses `GITHUB_TOKEN`. If you want `lowlighter/metrics` to include private contributions or higher API quotas:
-
-1. Generate a Personal Access Token (Classic) at:
-   `https://github.com/settings/tokens/new`
-2. Scopes needed: `repo`, `read:user`, `read:org`.
-3. Go to `https://github.com/abhipatel0000/abhipatel0000/settings/secrets/actions`.
-4. Click **New repository secret**.
-5. Name: `METRICS_TOKEN`
-6. Value: Paste your generated personal access token.
-
----
-
-## ⚡ Step 3: Trigger the Workflows Manually
-
-To generate the initial Snake and Metrics SVGs without waiting for the scheduled midnight cron:
+To generate the initial Snake animation immediately without waiting for the scheduled cron:
 
 1. Go to `https://github.com/abhipatel0000/abhipatel0000/actions`.
 2. Click **Generate Snake Contribution Animation** on the left menu.
 3. Click **Run workflow** -> Select `main` branch -> Click green **Run workflow** button.
-4. Click **Generate Profile Metrics** on the left menu.
-5. Click **Run workflow** -> Select `main` branch -> Click green **Run workflow** button.
-6. Once both finish successfully, an `output` branch will automatically be created and your live snake & metrics images will render seamlessly!
+4. Once it finishes successfully, an `output` branch will automatically be created and your live snake contribution animation will render seamlessly on your profile!
 
 ---
 
-## ✏️ Step 4: Personalization & TODO Placeholders Checklist
+## ✏️ Step 3: Personalization & TODO Placeholders Checklist
 
 Search for `TODO` in `README.md` to update any links as you launch or publish them:
 

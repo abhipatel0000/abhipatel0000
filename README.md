@@ -147,25 +147,6 @@
 
 <br />
 
-<!-- ============================================================ -->
-<!-- GITHUB METRICS & CODE STATS                                  -->
-<!-- ============================================================ -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-stats-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/header-stats-light.svg" />
-  <img src="./assets/header-stats-dark.svg" alt="Engineering Metrics Header" width="100%" />
-</picture>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abhipatel0000/abhipatel0000/output/github-metrics.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abhipatel0000/abhipatel0000/output/github-metrics.svg" />
-    <!-- Graceful fallback to cached stats endpoint until GitHub Actions first run completes -->
-    <img src="https://github-readme-stats.vercel.app/api?username=abhipatel0000&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F2FE&icon_color=9d4edd&text_color=c9d1d9&border_radius=12&count_private=true" alt="Abhi Patel GitHub Profile Activity Stats" />
-  </picture>
-</p>
-
-<br />
 
 <!-- ============================================================ -->
 <!-- CONTRIBUTION GRAPH / SNAKE ANIMATION                         -->

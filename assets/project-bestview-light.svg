@@ -27,9 +27,6 @@
               <rect width="112" height="24" rx="12" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
               <text x="56.0" y="16" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#334155">Tailwind CSS</text>
             </g><g transform="translate(208, 150)">
-              <rect width="104" height="24" rx="12" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
-              <text x="52.0" y="16" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#334155">Spring Boot</text>
-            </g><g transform="translate(320, 150)">
               <rect width="96" height="24" rx="12" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1"/>
               <text x="48.0" y="16" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" fill="#334155">PostgreSQL</text>
             </g>
