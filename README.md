@@ -1,190 +1,239 @@
+<!-- ============================================================ -->
+<!-- HERO SECTION                                                 -->
+<!-- ============================================================ -->
 <p align="center">
-  <img src="./assets/banner.svg" alt="Abhi Patel - Banner" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.svg" />
+    <img src="./assets/banner.svg" alt="Abhi Patel — Full-Stack Engineer &amp; AI Solutions Architect" width="100%" />
+  </picture>
+</p>
+
+<!-- ============================================================ -->
+<!-- INTRO & QUICK CONNECT PILLS                                  -->
+<!-- ============================================================ -->
+<p align="center">
+  Computer Science undergraduate at <b>Indus University</b> ('27) and Technical Lead at <b>ISAC</b>.<br />
+  Specializing in scalable full-stack architectures, high-performance microservices, and autonomous LLM agent systems.<br />
+  Passionate about turning complex computational problems into elegant, production-grade software.
 </p>
 
 <p align="center">
-  <a href="https://github.com/abhipatel0000">
-    <img src="https://komarev.com/ghpvc/?username=abhipatel0000&color=6366f1&style=for-the-badge&label=PROFILE+VIEWS&logo=github" alt="Profile Views" />
+  <a href="https://linkedin.com/in/abhi-patel-dev" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/btn-linkedin-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/btn-linkedin-light.svg" />
+      <img src="./assets/btn-linkedin-dark.svg" alt="LinkedIn Profile" height="38" />
+    </picture>
   </a>
-  <a href="https://github.com/abhipatel0000?tab=followers">
-    <img src="https://img.shields.io/github/followers/abhipatel0000?style=for-the-badge&logo=github&color=00F2FE&labelColor=0d1117" alt="Followers" />
+  <a href="https://github.com/abhipatel0000" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/btn-github-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/btn-github-light.svg" />
+      <img src="./assets/btn-github-dark.svg" alt="GitHub Profile" height="38" />
+    </picture>
   </a>
-  <a href="https://github.com/abhipatel0000?tab=repositories">
-    <img src="https://img.shields.io/github/stars/abhipatel0000?style=for-the-badge&logo=star&color=f72585&labelColor=0d1117" alt="Stars" />
+  <a href="mailto:abhipatel200510@gmail.com" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/btn-email-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/btn-email-light.svg" />
+      <img src="./assets/btn-email-dark.svg" alt="Email Contact" height="38" />
+    </picture>
   </a>
-  <img src="https://img.shields.io/badge/Tech_Lead-ISAC-9d4edd?style=for-the-badge&logo=codefactor&logoColor=white&labelColor=0d1117" alt="Tech Lead ISAC" />
-  <img src="https://img.shields.io/badge/Ahmedabad-India-00f2fe?style=for-the-badge&logo=googlemaps&logoColor=white&labelColor=0d1117" alt="Location" />
+  <a href="https://instagram.com/abhipatel1810" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/btn-instagram-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/btn-instagram-light.svg" />
+      <img src="./assets/btn-instagram-dark.svg" alt="Instagram Profile" height="38" />
+    </picture>
+  </a>
+  <!-- TODO: Replace href below with your personal portfolio URL when published -->
+  <a href="https://github.com/abhipatel0000" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/btn-portfolio-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/btn-portfolio-light.svg" />
+      <img src="./assets/btn-portfolio-dark.svg" alt="Portfolio Website" height="38" />
+    </picture>
+  </a>
 </p>
 
+<!-- ============================================================ -->
+<!-- CURRENT FOCUS CARD                                           -->
+<!-- ============================================================ -->
 <p align="center">
-  <a href="https://github.com/abhipatel0000">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=1200&color=16a7f5&center=true&vCenter=true&multiline=false&width=620&height=45&lines=%E2%9A%A1+Full-Stack+Engineer+%26+System+Architect;%F0%9F%A4%96+AI+%26+Machine+Learning+Explorer;%F0%9F%9A%80+Technical+Lead+%40+Indus+Student+Activity+Cell;%F0%9F%92%A1+Turning+Complex+Ideas+into+Scalable+Products;%F0%9F%8E%AC+Creative+Visual+Storyteller+%26+Editor" alt="Typing SVG" />
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/currently-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/currently-light.svg" />
+    <img src="./assets/currently-dark.svg" alt="Current Focus: Building, Learning, Exploring, Open to Collabs" width="100%" />
+  </picture>
 </p>
 
----
+<br />
 
-### 🧑‍💻 Developer Terminal
+<!-- ============================================================ -->
+<!-- FEATURED PROJECTS (2x2 Grid)                                -->
+<!-- ============================================================ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-projects-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-projects-light.svg" />
+  <img src="./assets/header-projects-dark.svg" alt="Featured Projects Header" width="100%" />
+</picture>
 
-```javascript
-
-const abhiPatel = {
-  name: "Abhi Patel",
-  pronouns: "he/him",
-  status: "🟢 Building & Exploring next-gen web & AI technologies",
-  location: "Ahmedabad, Gujarat, India 🇮🇳",
-  education: {
-    degree: "B.Tech in Computer Science & Engineering",
-    institution: "Indus University",
-    timeline: "2023 – 2027"
-  },
-  leadership: "Technical Lead @ ISAC (Indus Student Activity Cell)",
-  domains: [
-    "Full-Stack Web Architecture",
-    "Applied Machine Learning & AI Tools",
-    "Microservices & High-Performance APIs",
-    "UI/UX Craft & Interactive Experiences"
-  ],
-  currentFocus: [
-    "High-throughput backend systems (FastAPI, Node, Spring Boot)",
-    "Modern React / Next.js ecosystem & Glassmorphism design",
-    "LLM pipelines, agentic workflows & intelligent automations"
-  ],
-  passions: ["Building real-world products", "Open-source collaborations", "Video Editing 🎬"],
-  philosophy: "Write clean code, design intuitive interfaces, ship high-impact software."
-};
-```
-
----
-
-### ⚡ What I Do
-
-<table>
+<table width="100%" border="0" cellspacing="0" cellpadding="4">
   <tr>
-    <td width="50%" valign="top">
-      <h4>🌐 Full-Stack Web Development</h4>
-      <p>Architecting responsive, lightning-fast web applications with modern frontend frameworks and robust microservice backends.</p>
-      <sub><b>Core:</b> Next.js, React, Node.js, Express, FastAPI, Spring Boot, REST &amp; WebSockets</sub>
+    <td width="50%" align="center" valign="top">
+      <!-- TODO: Replace href with your AURA repository link -->
+      <a href="https://github.com/abhipatel0000" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/project-aura-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="./assets/project-aura-light.svg" />
+          <img src="./assets/project-aura-dark.svg" alt="Project AURA — AI OS Assistant" width="100%" />
+        </picture>
+      </a>
     </td>
-    <td width="50%" valign="top">
-      <h4>🧠 AI &amp; Machine Learning</h4>
-      <p>Building data-driven intelligence into products, from deep learning and predictive modeling to custom LLM integrations.</p>
-      <sub><b>Core:</b> PyTorch, TensorFlow, Scikit-Learn, Pandas, NumPy, Data Analytics</sub>
+    <td width="50%" align="center" valign="top">
+      <!-- TODO: Replace href with your StageSync repository link -->
+      <a href="https://github.com/abhipatel0000" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/project-stagesync-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="./assets/project-stagesync-light.svg" />
+          <img src="./assets/project-stagesync-dark.svg" alt="Project StageSync — Event Media Delivery Platform" width="100%" />
+        </picture>
+      </a>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h4>🗄️ Database &amp; Cloud Infrastructure</h4>
-      <p>Designing scalable relational and NoSQL schemas, caching strategies, and containerized deployments.</p>
-      <sub><b>Core:</b> MongoDB, PostgreSQL, MySQL, Redis, Docker, Firebase, Git &amp; CI/CD</sub>
+    <td width="50%" align="center" valign="top">
+      <!-- TODO: Replace href with your BestView repository link -->
+      <a href="https://github.com/abhipatel0000" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/project-bestview-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="./assets/project-bestview-light.svg" />
+          <img src="./assets/project-bestview-dark.svg" alt="Project BestView Clone — Luxury Booking Platform" width="100%" />
+        </picture>
+      </a>
     </td>
-    <td width="50%" valign="top">
-      <h4>🎨 UI/UX &amp; Creative Media</h4>
-      <p>Crafting sleek, accessible user experiences and cinematic visual media with precision attention to detail.</p>
-      <sub><b>Core:</b> Figma, Modern CSS, Video Editing 🎬, Responsive Design Systems</sub>
+    <td width="50%" align="center" valign="top">
+      <!-- TODO: Replace href with your AI Trading Bot repository link -->
+      <a href="https://github.com/abhipatel0000" target="_blank" rel="noopener noreferrer">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="./assets/project-tradingbot-dark.svg" />
+          <source media="(prefers-color-scheme: light)" srcset="./assets/project-tradingbot-light.svg" />
+          <img src="./assets/project-tradingbot-dark.svg" alt="Project AI Trading Bot — Quantitative Market Execution" width="100%" />
+        </picture>
+      </a>
     </td>
   </tr>
 </table>
 
----
+<br />
 
-### 🛠️ Tech Arsenal
-
-<div align="center">
-
-<h4>💻 Languages</h4>
-<p>
-  <img src="https://skillicons.dev/icons?i=java,py,js,ts,cpp,c,html,css&theme=dark" alt="Languages" />
-</p>
-
-<h4>⚛️ Frontend Frameworks &amp; Styling</h4>
-<p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,bootstrap,redux&theme=dark" alt="Frontend" />
-</p>
-<p>
-  <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router" />
-  <img src="https://img.shields.io/badge/Esbuild-FFCF00?style=flat-square&logo=esbuild&logoColor=black" alt="Esbuild" />
-  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
-</p>
-
-<h4>🚀 Backend &amp; APIs</h4>
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,flask,spring&theme=dark" alt="Backend" />
-</p>
-<p>
-  <img src="https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.io" />
-  <img src="https://img.shields.io/badge/Nodemon-76D04B?style=flat-square&logo=nodemon&logoColor=white" alt="Nodemon" />
-  <img src="https://img.shields.io/badge/REST_APIs-005571?style=flat-square&logo=postman&logoColor=white" alt="REST APIs" />
-</p>
-
-<h4>🧠 Data Science &amp; Machine Learning</h4>
-<p>
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" alt="Data & ML" />
-</p>
-<p>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas" />
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=python&logoColor=white" alt="Matplotlib" />
-  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white" alt="SciPy" />
-</p>
-
-<h4>🗄️ Databases &amp; Cloud</h4>
-<p>
-  <img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis,firebase,supabase&theme=dark" alt="Databases" />
-</p>
-
-<h4>🧰 Tools, DevOps &amp; Workflow</h4>
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,linux,postman,figma,unity,vscode,maven,gradle&theme=dark" alt="Tools & DevOps" />
-</p>
-<p>
-  <img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white" alt="ESLint" />
-  <img src="https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=black" alt="Prettier" />
-  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" alt="Swagger" />
-</p>
-
-</div>
-
----
-
-### 📊 GitHub Activity &amp; Live Stats
+<!-- ============================================================ -->
+<!-- TECH ARSENAL                                                 -->
+<!-- ============================================================ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-tech-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-tech-light.svg" />
+  <img src="./assets/header-tech-dark.svg" alt="Tech Arsenal Header" width="100%" />
+</picture>
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=abhipatel0000&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F2FE&icon_color=9d4edd&text_color=c9d1d9&border_radius=12&count_private=true" alt="Abhi's GitHub Stats" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhipatel0000&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F2FE&text_color=c9d1d9&border_radius=12&langs_count=8" alt="Top Languages" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/tech-stack-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/tech-stack-light.svg" />
+    <img src="./assets/tech-stack-dark.svg" alt="Tech Stack: Languages, Frontend, Backend, AI/ML, Databases &amp; Cloud, Tools" width="100%" />
+  </picture>
 </p>
 
+<br />
+
+<!-- ============================================================ -->
+<!-- GITHUB METRICS & CODE STATS                                  -->
+<!-- ============================================================ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-stats-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-stats-light.svg" />
+  <img src="./assets/header-stats-dark.svg" alt="Engineering Metrics Header" width="100%" />
+</picture>
+
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=abhipatel0000&theme=tokyonight&hide_border=true&background=0d1117&stroke=6366f1&ring=00f2fe&fire=f72585&currStreakLabel=00f2fe&border_radius=12" alt="GitHub Streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abhipatel0000/abhipatel0000/output/github-metrics.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abhipatel0000/abhipatel0000/output/github-metrics.svg" />
+    <!-- Graceful fallback to cached stats endpoint until GitHub Actions first run completes -->
+    <img src="https://github-readme-stats.vercel.app/api?username=abhipatel0000&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F2FE&icon_color=9d4edd&text_color=c9d1d9&border_radius=12&count_private=true" alt="Abhi Patel GitHub Profile Activity Stats" />
+  </picture>
 </p>
 
+<br />
+
+<!-- ============================================================ -->
+<!-- CONTRIBUTION GRAPH / SNAKE ANIMATION                         -->
+<!-- ============================================================ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-snake-light.svg" />
+  <img src="./assets/header-snake-dark.svg" alt="Contribution Graph Header" width="100%" />
+</picture>
+
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abhipatel0000/abhipatel0000/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abhipatel0000/abhipatel0000/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/abhipatel0000/abhipatel0000/output/github-contribution-grid-snake-dark.svg" alt="Snake Contribution Animation" width="100%" />
+  </picture>
 </p>
 
----
+<br />
 
-### 🤝 Let's Connect &amp; Collaborate
+<!-- ============================================================ -->
+<!-- EXPERIENCE & LEADERSHIP                                      -->
+<!-- ============================================================ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-experience-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-experience-light.svg" />
+  <img src="./assets/header-experience-dark.svg" alt="Leadership and Education Header" width="100%" />
+</picture>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/abhi-patel-dev" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/experience-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/experience-light.svg" />
+    <img src="./assets/experience-dark.svg" alt="Experience: ISAC Technical Lead &amp; Indus University CSE" width="100%" />
+  </picture>
+</p>
+
+<br />
+
+<!-- ============================================================ -->
+<!-- CREATIVE CORNER                                              -->
+<!-- ============================================================ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-creative-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-creative-light.svg" />
+  <img src="./assets/header-creative-dark.svg" alt="Creative Corner Header" width="100%" />
+</picture>
+
+<p align="center">
+  <!-- TODO: Replace href with your video portfolio / YouTube / creative reel link -->
+  <a href="https://instagram.com/abhipatel1810" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/creative-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="./assets/creative-light.svg" />
+      <img src="./assets/creative-dark.svg" alt="Creative Media &amp; Video Production" width="100%" />
+    </picture>
   </a>
-  <a href="mailto:abhipatel200510@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://www.instagram.com/abhipatel1810" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-  <a href="https://github.com/abhipatel0000" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
 </p>
 
-<p align="center">
-  <i>💡 Got an exciting project, open-source initiative, or opportunity? My inbox is always open!</i>
-</p>
+<br />
 
+<!-- ============================================================ -->
+<!-- FOOTER                                                       -->
+<!-- ============================================================ -->
 <p align="center">
-  <img src="./assets/footer.svg" alt="Footer Banner" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg" />
+    <img src="./assets/footer.svg" alt="Abhi Patel Footer" width="100%" />
+  </picture>
 </p>

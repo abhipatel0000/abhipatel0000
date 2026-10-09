@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1200 130" fill="none">
+  <defs>
+    <linearGradient id="curBgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes curPulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.3; transform: scale(0.8); }
+    }
+    .p-dot { animation: curPulse 2s infinite ease-in-out; transform-origin: center; }
+  </style>
+  <rect width="1200" height="130" rx="16" fill="url(#curBgDark)" stroke="#30363d" stroke-width="1.2"/>
+  
+  <!-- Column 1: Building -->
+  <g transform="translate(30, 25)">
+    <rect x="0" y="0" width="265" height="80" rx="12" fill="#0d1117" stroke="#00f2fe" stroke-width="1" stroke-opacity="0.3"/>
+    <circle cx="20" cy="25" r="4" fill="#00f2fe" class="p-dot"/>
+    <text x="32" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#00f2fe" letter-spacing="0.5">CURRENTLY BUILDING</text>
+    <text x="20" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#f0f6fc">AURA &amp; StageSync</text>
+    <text x="20" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="400" fill="#8b949e">AI OS Agent &amp; Event Platform</text>
+  </g>
+
+  <!-- Column 2: Learning -->
+  <g transform="translate(320, 25)">
+    <rect x="0" y="0" width="265" height="80" rx="12" fill="#0d1117" stroke="#6366f1" stroke-width="1" stroke-opacity="0.3"/>
+    <circle cx="20" cy="25" r="4" fill="#6366f1" class="p-dot"/>
+    <text x="32" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#6366f1" letter-spacing="0.5">DEEP DIVING INTO</text>
+    <text x="20" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#f0f6fc">Agentic LLM Workflows</text>
+    <text x="20" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="400" fill="#8b949e">Autonomous Multi-Agent Systems</text>
+  </g>
+
+  <!-- Column 3: Exploring -->
+  <g transform="translate(610, 25)">
+    <rect x="0" y="0" width="265" height="80" rx="12" fill="#0d1117" stroke="#9d4edd" stroke-width="1" stroke-opacity="0.3"/>
+    <circle cx="20" cy="25" r="4" fill="#9d4edd" class="p-dot"/>
+    <text x="32" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#9d4edd" letter-spacing="0.5">EXPLORING</text>
+    <text x="20" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#f0f6fc">High-Concurrency Backends</text>
+    <text x="20" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="400" fill="#8b949e">FastAPI, Spring Boot &amp; WebSockets</text>
+  </g>
+
+  <!-- Column 4: Open To -->
+  <g transform="translate(900, 25)">
+    <rect x="0" y="0" width="270" height="80" rx="12" fill="#0d1117" stroke="#00ff88" stroke-width="1" stroke-opacity="0.3"/>
+    <circle cx="20" cy="25" r="4" fill="#00ff88" class="p-dot"/>
+    <text x="32" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#00ff88" letter-spacing="0.5">OPEN TO</text>
+    <text x="20" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" fill="#f0f6fc">High-Impact Collaborations</text>
+    <text x="20" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="400" fill="#8b949e">Full-Stack &amp; AI Engineering</text>
+  </g>
+</svg>

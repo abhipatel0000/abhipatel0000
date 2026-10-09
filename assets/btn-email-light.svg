@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="148" height="38" viewBox="0 0 148 38" fill="none">
+  <rect x="0.5" y="0.5" width="147" height="37" rx="18.5" fill="#ffffff" stroke="#ea4335" stroke-width="1.2" stroke-opacity="0.5"/>
+  <rect x="0.5" y="0.5" width="147" height="37" rx="18.5" fill="#ea4335" fill-opacity="0.05"/>
+  <g transform="translate(18, 10) scale(0.75)" color="#ea4335">
+    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
+  </g>
+  <text x="78" y="24" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#0f172a">Email</text>
+  <path d="M125 15 L129 19 L125 23" fill="none" stroke="#ea4335" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

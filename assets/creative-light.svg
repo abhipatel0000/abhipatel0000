@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1200 120" fill="none">
+  <defs>
+    <linearGradient id="crBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="120" rx="16" fill="url(#crBgLight)" stroke="#e2e8f0" stroke-width="1.2"/>
+  
+  <g transform="translate(30, 24)">
+    <rect width="55" height="55" rx="12" fill="#f472b6" fill-opacity="0.15" stroke="#db2777" stroke-width="1"/>
+    <text x="27.5" y="35" text-anchor="middle" font-size="24">🎬</text>
+    
+    <text x="75" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Video Editing, Motion &amp; Visual Storytelling</text>
+    <text x="75" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#475569">Cinematic storytelling, pacing, sound design, motion graphics &amp; high-energy sports (cricket) media editing.</text>
+  </g>
+</svg>

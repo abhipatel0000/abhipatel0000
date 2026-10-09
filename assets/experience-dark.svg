@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1200 180" fill="none">
+  <defs>
+    <linearGradient id="expBgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="180" rx="16" fill="url(#expBgDark)" stroke="#30363d" stroke-width="1.2"/>
+
+  <!-- Left: ISAC -->
+  <g transform="translate(30, 25)">
+    <rect width="550" height="130" rx="12" fill="#0d1117" stroke="#00f2fe" stroke-width="1" stroke-opacity="0.3"/>
+    <circle cx="25" cy="28" r="5" fill="#00f2fe"/>
+    <text x="40" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Technical Lead</text>
+    <text x="40" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#00f2fe">Indus Student Activity Cell (ISAC)</text>
+    <text x="460" y="32" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#8b949e">2024 – Present</text>
+    <line x1="25" y1="68" x2="525" y2="68" stroke="#30363d" stroke-width="1"/>
+    <text x="25" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#c9d1d9">Spearheading student technology initiatives, managing event platforms &amp; leading developer teams.</text>
+    <text x="25" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#8b949e">Mentoring peers in full-stack engineering, scalable workflows, and project execution.</text>
+  </g>
+
+  <!-- Right: Indus University -->
+  <g transform="translate(620, 25)">
+    <rect width="550" height="130" rx="12" fill="#0d1117" stroke="#6366f1" stroke-width="1" stroke-opacity="0.3"/>
+    <circle cx="25" cy="28" r="5" fill="#6366f1"/>
+    <text x="40" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700" fill="#ffffff">B.Tech in Computer Science &amp; Engg</text>
+    <text x="40" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#6366f1">Indus University, Ahmedabad</text>
+    <text x="460" y="32" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#8b949e">2023 – 2027</text>
+    <line x1="25" y1="68" x2="525" y2="68" stroke="#30363d" stroke-width="1"/>
+    <text x="25" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#c9d1d9">Deep dive into Algorithms, Distributed Systems, Software Engineering &amp; AI architectures.</text>
+    <text x="25" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="400" fill="#8b949e">Building scalable academic &amp; extracurricular software platforms with modern tech stacks.</text>
+  </g>
+</svg>

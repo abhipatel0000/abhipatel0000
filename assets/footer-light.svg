@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1200 120" fill="none">
+  <defs>
+    <linearGradient id="ftBgLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="50%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#f1f5f9" />
+    </linearGradient>
+    <linearGradient id="ftWaveLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#4f46e5" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#db2777" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes waveFloat1L {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(-30px); }
+    }
+    @keyframes waveFloat2L {
+      0%, 100% { transform: translateX(0); }
+      50% { transform: translateX(30px); }
+    }
+    .w1-l { animation: waveFloat1L 7s ease-in-out infinite; }
+    .w2-l { animation: waveFloat2L 9s ease-in-out infinite; }
+  </style>
+  <rect width="1200" height="120" rx="16" fill="url(#ftBgLight)" stroke="#e2e8f0" stroke-width="1.2"/>
+  <path class="w1-l" d="M -50 35 Q 250 15 550 35 T 1150 30 T 1300 40" fill="none" stroke="url(#ftWaveLight)" stroke-width="2" opacity="0.8"/>
+  <path class="w2-l" d="M -50 42 Q 300 55 650 30 T 1250 35" fill="none" stroke="#0284c7" stroke-width="1.2" opacity="0.3"/>
+  
+  <text x="600" y="78" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#0f172a" letter-spacing="0.8">
+    DESIGNED &amp; ARCHITECTED BY ABHI PATEL • THANKS FOR VISITING
+  </text>
+  <text x="600" y="98" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#64748b">
+    Ahmedabad, India • B.Tech CSE '27 • ISAC Tech Lead
+  </text>
+</svg>
