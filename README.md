@@ -18,7 +18,7 @@
 
 <p align="center">
   <a href="https://github.com/abhipatel0000">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=1200&color=00F2FE&center=true&vCenter=true&multiline=false&width=620&height=45&lines=%E2%9A%A1+Full-Stack+Engineer+%26+System+Architect;%F0%9F%A4%96+AI+%26+Machine+Learning+Explorer;%F0%9F%9A%80+Technical+Lead+%40+Indus+Student+Activity+Cell;%F0%9F%92%A1+Turning+Complex+Ideas+into+Scalable+Products;%F0%9F%8E%AC+Creative+Visual+Storyteller+%26+Editor" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=1200&color=16a7f5&center=true&vCenter=true&multiline=false&width=620&height=45&lines=%E2%9A%A1+Full-Stack+Engineer+%26+System+Architect;%F0%9F%A4%96+AI+%26+Machine+Learning+Explorer;%F0%9F%9A%80+Technical+Lead+%40+Indus+Student+Activity+Cell;%F0%9F%92%A1+Turning+Complex+Ideas+into+Scalable+Products;%F0%9F%8E%AC+Creative+Visual+Storyteller+%26+Editor" alt="Typing SVG" />
   </a>
 </p>
 
