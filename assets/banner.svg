@@ -1,43 +1,225 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="Hi, I'm Abhi - Full-Stack Developer" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToxNjI5ZDkzOS1hMTIwLTQzNWQtYjUyMy1lNzEyNjA3YmEyYWIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaD7uHZC49YSbkmBq1514JKgAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpjMzY2NWMyYy00ZmE3LTRjYzItYWQ1Zi04OGQwYTkyZTA3NGZscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoeMD0kE7noIgU37sniMjkCQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggNcbs4CFLfhe70hVkVEEk+Q7AdaQajJhN7dWVYUnGvW+kZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaNGZL8cbWhiQnT+HgYBsl1EAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCCPKjAXjwZ8hupqYS4zBHzj0sSokRrmqrye7G68bDkLSGRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjfZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjE2MjlkOTM5LWExMjAtNDM1ZC1iNTIzLWU3MTI2MDdiYTJhYi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjM3YTM4MDQ1LWE5YmItNGM2ZS1iNWEzLTQ0MWJlYjU2MDRjY3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCA1xuzgIUt+F7vSFWRUQST5DsB1pBqMmE3t1ZVhSca9b6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggOWdp/wxx9mdHiEdp7xlXfGvSm7swULtATbV5CEyk0iSiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggBIDk8V9ky5T5VLg+gmBzIufHCHNlI7BfcoHT3pVW4yZ0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQCTEFBaOAo+R6Da6UKU7c+Nw3Xv1zULyT0x7zL4Y43BfjBinuHGpv1phsmzF+xaMN86w3ZDdii20mVa1SeyQjm8=</c2pa:manifest></metadata>
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1200 340" fill="none">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0f0c29"/>
-      <stop offset="50%" stop-color="#302b63"/>
-      <stop offset="100%" stop-color="#6c63ff"/>
+    <!-- Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08071a" />
+      <stop offset="40%" stop-color="#0f1123" />
+      <stop offset="80%" stop-color="#18122B" />
+      <stop offset="100%" stop-color="#090514" />
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#6c63ff"/>
-      <stop offset="100%" stop-color="#00d4ff"/>
+
+    <linearGradient id="accentCyanPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="45%" stop-color="#4FACFE" />
+      <stop offset="80%" stop-color="#9d4edd" />
+      <stop offset="100%" stop-color="#f72585" />
     </linearGradient>
+
+    <linearGradient id="glowLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0" />
+      <stop offset="20%" stop-color="#00F2FE" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#9d4edd" stop-opacity="1" />
+      <stop offset="80%" stop-color="#f72585" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#f72585" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="badgeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02" />
+    </linearGradient>
+
+    <linearGradient id="badgeBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#9d4edd" stop-opacity="0.5" />
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowSoft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Pattern -->
+    <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#6366f1" stroke-width="0.75" stroke-opacity="0.07"/>
+      <circle cx="40" cy="0" r="1" fill="#00F2FE" fill-opacity="0.2"/>
+    </pattern>
   </defs>
+
   <style>
-    .title { font: 700 54px 'Segoe UI', Arial, sans-serif; fill: #ffffff; animation: fadeUp 1.2s ease-out both; }
-    .sub   { font: 500 22px 'Segoe UI', Arial, sans-serif; fill: #cfd0ff; animation: fadeUp 1.2s ease-out 0.3s both; }
-    .line  { font: 600 22px 'Courier New', monospace; fill: #00d4ff; opacity: 0; animation: cycle 12s infinite; }
-    .l2 { animation-delay: 3s; } .l3 { animation-delay: 6s; } .l4 { animation-delay: 9s; }
-    .orb1 { animation: float 7s ease-in-out infinite; }
-    .orb2 { animation: float 9s ease-in-out infinite reverse; }
-    @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
-    @keyframes cycle {
-      0%   { opacity: 0; transform: translateY(8px); }
-      4%   { opacity: 1; transform: translateY(0); }
-      21%  { opacity: 1; transform: translateY(0); }
-      25%  { opacity: 0; transform: translateY(-8px); }
-      100% { opacity: 0; }
+    @keyframes floatOrb {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      50% { transform: translate(25px, -18px) scale(1.08); }
     }
-    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+    @keyframes floatOrbRev {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      50% { transform: translate(-20px, 15px) scale(1.12); }
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 0.35; filter: drop-shadow(0 0 15px #00F2FE); }
+      50% { opacity: 0.75; filter: drop-shadow(0 0 25px #9d4edd); }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(340px); }
+    }
+    @keyframes typeCycle {
+      0%, 20% { opacity: 1; transform: translateY(0); }
+      23%, 97% { opacity: 0; transform: translateY(8px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes typeCycle2 {
+      0%, 23% { opacity: 0; transform: translateY(8px); }
+      26%, 46% { opacity: 1; transform: translateY(0); }
+      49%, 100% { opacity: 0; transform: translateY(8px); }
+    }
+    @keyframes typeCycle3 {
+      0%, 49% { opacity: 0; transform: translateY(8px); }
+      52%, 72% { opacity: 1; transform: translateY(0); }
+      75%, 100% { opacity: 0; transform: translateY(8px); }
+    }
+    @keyframes typeCycle4 {
+      0%, 75% { opacity: 0; transform: translateY(8px); }
+      78%, 97% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(8px); }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    @keyframes badgeFloat {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-4px); }
+    }
+
+    .bg-orb1 { animation: floatOrb 9s ease-in-out infinite; }
+    .bg-orb2 { animation: floatOrbRev 12s ease-in-out infinite; }
+    .neon-pulse { animation: pulseGlow 4s ease-in-out infinite; }
+    .badge-anim { animation: badgeFloat 6s ease-in-out infinite; }
+    .badge-anim-delay { animation: badgeFloat 6s ease-in-out infinite 3s; }
+    
+    .cursor-blink { animation: blink 0.9s infinite; }
+    
+    .cycle-text-1 { animation: typeCycle 14s ease-in-out infinite; }
+    .cycle-text-2 { animation: typeCycle2 14s ease-in-out infinite; }
+    .cycle-text-3 { animation: typeCycle3 14s ease-in-out infinite; }
+    .cycle-text-4 { animation: typeCycle4 14s ease-in-out infinite; }
   </style>
 
-  <rect width="1000" height="260" rx="18" fill="url(#bg)"/>
-  <circle class="orb1" cx="880" cy="60" r="90" fill="#ffffff" opacity="0.06"/>
-  <circle class="orb2" cx="120" cy="220" r="70" fill="#00d4ff" opacity="0.08"/>
-  <circle class="orb1" cx="700" cy="230" r="40" fill="#ffffff" opacity="0.05"/>
+  <!-- Background Base -->
+  <rect width="1200" height="340" rx="24" fill="url(#bgGrad)"/>
+  
+  <!-- Cyber Grid Pattern -->
+  <rect width="1200" height="340" rx="24" fill="url(#cyberGrid)"/>
 
-  <text class="title" x="500" y="100" text-anchor="middle">Hi, I'm Abhi</text>
-  <text class="sub" x="500" y="142" text-anchor="middle">Full-Stack Developer  |  CSE Student</text>
-  <rect x="440" y="160" width="120" height="4" rx="2" fill="url(#accent)"/>
+  <!-- Glowing Mesh Orbs -->
+  <g class="bg-orb1">
+    <circle cx="150" cy="80" r="140" fill="#00F2FE" opacity="0.09" filter="url(#neonGlow)" />
+    <circle cx="1080" cy="260" r="160" fill="#9d4edd" opacity="0.12" filter="url(#neonGlow)" />
+  </g>
+  <g class="bg-orb2">
+    <circle cx="600" cy="30" r="120" fill="#6366f1" opacity="0.1" filter="url(#neonGlow)" />
+    <circle cx="1020" cy="70" r="90" fill="#f72585" opacity="0.08" filter="url(#neonGlow)" />
+    <circle cx="120" cy="280" r="110" fill="#4FACFE" opacity="0.09" filter="url(#neonGlow)" />
+  </g>
 
-  <text class="line l2" x="500" y="212" text-anchor="middle">&gt; Turning ideas into real products</text>
-  <text class="line l3" x="500" y="212" text-anchor="middle">&gt; Technical Lead @ ISAC</text>
-  <text class="line l4" x="500" y="212" text-anchor="middle">&gt; Always learning, always shipping</text>
+  <!-- Card Border Glow -->
+  <rect x="1" y="1" width="1198" height="338" rx="23" fill="none" stroke="url(#accentCyanPurple)" stroke-width="1.5" stroke-opacity="0.4"/>
+
+  <!-- Corner Tech Brackets -->
+  <path d="M 28 50 L 28 28 L 50 28" fill="none" stroke="#00F2FE" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 1172 50 L 1172 28 L 1150 28" fill="none" stroke="#f72585" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 28 290 L 28 312 L 50 312" fill="none" stroke="#00F2FE" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 1172 290 L 1172 312 L 1150 312" fill="none" stroke="#9d4edd" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Top Status Pill / Live Badge -->
+  <g transform="translate(600, 48)" text-anchor="middle">
+    <rect x="-130" y="-15" width="260" height="30" rx="15" fill="url(#badgeBg)" stroke="url(#badgeBorder)" stroke-width="1"/>
+    <circle cx="-105" cy="0" r="4" fill="#00ff88">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="-92" y="5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="700" fill="#00ff88" letter-spacing="1">AVAILABLE FOR COLLABS</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="128" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="900" fill="#ffffff" letter-spacing="-0.5">
+    Hi, I'm <tspan fill="url(#accentCyanPurple)" filter="url(#glowSoft)">Abhi Patel</tspan> 🚀
+  </text>
+
+  <!-- Subtitle Tagline -->
+  <text x="600" y="172" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600" fill="#b4c6ef" letter-spacing="0.5">
+    Full-Stack Software Engineer &amp; AI Builder
+  </text>
+
+  <!-- Glowing Accent Divider -->
+  <line x1="380" y1="196" x2="820" y2="196" stroke="url(#glowLine)" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Dynamic Animated Typing Text Carousel -->
+  <g transform="translate(600, 238)" text-anchor="middle">
+    <!-- Line 1 -->
+    <g class="cycle-text-1">
+      <text font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="18.5" font-weight="600" fill="#00F2FE">
+        <tspan fill="#9d4edd">&gt;</tspan> Building scalable full-stack web applications &amp; smart AI tools
+      </text>
+    </g>
+
+    <!-- Line 2 -->
+    <g class="cycle-text-2">
+      <text font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="18.5" font-weight="600" fill="#4FACFE">
+        <tspan fill="#f72585">&gt;</tspan> Technical Lead @ ISAC | Computer Science &amp; Engg '27
+      </text>
+    </g>
+
+    <!-- Line 3 -->
+    <g class="cycle-text-3">
+      <text font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="18.5" font-weight="600" fill="#9d4edd">
+        <tspan fill="#00F2FE">&gt;</tspan> Crafting high-performance APIs, sleek UX &amp; clean architecture
+      </text>
+    </g>
+
+    <!-- Line 4 -->
+    <g class="cycle-text-4">
+      <text font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="18.5" font-weight="600" fill="#00ff88">
+        <tspan fill="#f72585">&gt;</tspan> Obsessed with turning complex problems into elegant software
+      </text>
+    </g>
+  </g>
+
+  <!-- Tech Capsules / Quick Pills along Bottom -->
+  <g transform="translate(600, 292)" text-anchor="middle">
+    <!-- Pill 1 -->
+    <g transform="translate(-320, 0)" class="badge-anim">
+      <rect x="-85" y="-13" width="170" height="26" rx="13" fill="#13152c" stroke="#4FACFE" stroke-width="1" stroke-opacity="0.4"/>
+      <text y="4.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">📍 Ahmedabad, India</text>
+    </g>
+
+    <!-- Pill 2 -->
+    <g transform="translate(-105, 0)" class="badge-anim-delay">
+      <rect x="-85" y="-13" width="170" height="26" rx="13" fill="#13152c" stroke="#9d4edd" stroke-width="1" stroke-opacity="0.4"/>
+      <text y="4.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">🎓 Indus University '27</text>
+    </g>
+
+    <!-- Pill 3 -->
+    <g transform="translate(105, 0)" class="badge-anim">
+      <rect x="-85" y="-13" width="170" height="26" rx="13" fill="#13152c" stroke="#f72585" stroke-width="1" stroke-opacity="0.4"/>
+      <text y="4.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">⚡ Full-Stack &amp; AI/ML</text>
+    </g>
+
+    <!-- Pill 4 -->
+    <g transform="translate(320, 0)" class="badge-anim-delay">
+      <rect x="-85" y="-13" width="170" height="26" rx="13" fill="#13152c" stroke="#00ff88" stroke-width="1" stroke-opacity="0.4"/>
+      <text y="4.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">🎬 Video &amp; UI Creator</text>
+    </g>
+  </g>
 </svg>
