@@ -136,8 +136,8 @@ def create_hero_banner(theme="dark"):
       50% {{ transform: translate(-30px, 20px) scale(1.08); opacity: 0.24; }}
     }}
     @keyframes livePulse {{
-      0%, 100% {{ opacity: 1; transform: scale(1); }}
-      50% {{ opacity: 0.35; transform: scale(0.85); }}
+      0%, 100% {{ opacity: 1; }}
+      50% {{ opacity: 0.25; }}
     }}
     @keyframes cycle1 {{
       0%, 20% {{ opacity: 1; transform: translateY(0); }}
@@ -162,7 +162,7 @@ def create_hero_banner(theme="dark"):
 
     .orb-1 {{ animation: pulseOrb1 10s ease-in-out infinite; }}
     .orb-2 {{ animation: pulseOrb2 12s ease-in-out infinite; }}
-    .status-dot {{ animation: livePulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; transform-origin: 430px 44px; }}
+    .status-dot {{ animation: livePulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }}
 
     .carousel-line-1 {{ animation: cycle1 16s ease-in-out infinite; }}
     .carousel-line-2 {{ animation: cycle2 16s ease-in-out infinite; }}
@@ -385,10 +385,10 @@ currently_dark = """<svg xmlns="http://www.w3.org/2000/svg" width="100%" height=
   </defs>
   <style>
     @keyframes curPulse {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.3; transform: scale(0.8); }
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.25; }
     }
-    .p-dot { animation: curPulse 2s infinite ease-in-out; transform-origin: center; }
+    .p-dot { animation: curPulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
   </style>
   <rect width="1200" height="130" rx="16" fill="url(#curBgDark)" stroke="#30363d" stroke-width="1.2"/>
   
@@ -439,10 +439,10 @@ currently_light = """<svg xmlns="http://www.w3.org/2000/svg" width="100%" height
   </defs>
   <style>
     @keyframes curPulseL {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.3; transform: scale(0.8); }
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.25; }
     }
-    .p-dot-l { animation: curPulseL 2s infinite ease-in-out; transform-origin: center; }
+    .p-dot-l { animation: curPulseL 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
   </style>
   <rect width="1200" height="130" rx="16" fill="url(#curBgLight)" stroke="#e2e8f0" stroke-width="1.2"/>
   

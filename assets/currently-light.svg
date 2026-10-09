@@ -7,10 +7,10 @@
   </defs>
   <style>
     @keyframes curPulseL {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.3; transform: scale(0.8); }
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.25; }
     }
-    .p-dot-l { animation: curPulseL 2s infinite ease-in-out; transform-origin: center; }
+    .p-dot-l { animation: curPulseL 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
   </style>
   <rect width="1200" height="130" rx="16" fill="url(#curBgLight)" stroke="#e2e8f0" stroke-width="1.2"/>
   
